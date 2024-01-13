@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { FaSearch } from "react-icons/fa";
-import snow from "../../assets/snow.png";
-import clear from "../../assets/clear.png";
-import clouds from "../../assets/clouds.png";
-import drizzle from "../../assets/drizzle.png";
-import rain from "../../assets/rain.png";
-import mist from "../../assets/mist.png";
+import snow from "../../assets/snow.webp";
+import clear from "../../assets/clear.webp";
+import clouds from "../../assets/clouds.webp";
+import drizzle from "../../assets/drizzle.webp";
+import rain from "../../assets/rain.webp";
+import mist from "../../assets/mist.webp";
 
 const Home = () => {
   const [weatherData, setWeatherData] = useState([]);
